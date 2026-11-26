@@ -9,7 +9,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const ENTRY = "This meeting could have been an email, but the email had better management potential.";
+// The joke, sharpened: take the most familiar office line there is and
+// promote it — the email got the job, and now it manages people.
+const ENTRY = "That meeting could have been an email — but the email got promoted, and now it manages twelve people and books itself weekly.";
 
 // The gate's shape, checked before handing in.
 const chars = [...ENTRY].length;
